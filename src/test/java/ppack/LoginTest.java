@@ -17,6 +17,8 @@ public class LoginTest {
 	@Test
 	public void login() throws InterruptedException{
 		
+		System.out.println("karan started work");
+		
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
